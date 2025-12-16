@@ -1,0 +1,21 @@
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+export PATH="$HOME/bin:${PATH}"
+
+alias vi="vim"
+
+alias t="terraform"
+alias ta="terraform apply"
+alias tp="terraform plan"
+alias tav="terraform apply -var-file="
+alias tpv="terraform plan -var-file="
+alias tw="terraform workspace"
+alias twl="terraform workspace list"
+alias tws="terraform workspace select"
+alias g="git"
+alias ga="git add"
+alias gc="git commit -m"
+alias gr="git rebase -i HEAD~"
+alias gs="git status"
+alias gsb="git switch"
+alias gco="git checkout -b"
